@@ -1,0 +1,15 @@
+[submodule "src/ros_can"]
+	path = src/ros_can
+	url = https://gitlab.com/eufs/ros_can.git
+[submodule "src/eufs_msgs"]
+	path = src/eufs_msgs
+	url = https://gitlab.com/eufs/eufs_msgs.git
+[submodule "src/zed-ros2-wrapper"]
+	path = src/zed-ros2-wrapper
+	url = https://github.com/stereolabs/zed-ros2-wrapper.git
+[submodule "src/nrai_perception"]
+	path = src/nrai_perception
+	url = https://github.com/NewcastleRacingAI/nrai_perception.git
+[submodule "src/nrai_rosutils"]
+	path = src/nrai_rosutils
+	url = https://github.com/NewcastleRacingAI/nrai_rosutils.git
