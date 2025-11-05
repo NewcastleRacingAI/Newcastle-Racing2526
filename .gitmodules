@@ -13,3 +13,6 @@
 [submodule "src/nrai_rosutils"]
 	path = src/nrai_rosutils
 	url = https://github.com/NewcastleRacingAI/nrai_rosutils.git
+[submodule "src/nrai_pathplanning"]
+	path = src/nrai_pathplanning
+	url = https://github.com/NewcastleRacingAI/nrai_pathplanning.git
