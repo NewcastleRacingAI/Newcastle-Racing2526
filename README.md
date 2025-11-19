@@ -28,6 +28,23 @@ Newcastle-Racing
 └── hello_world.sh # Entry point script
 ```
 
-## Todos
+## Running the full ROS workspace
 
-- [ ] Request the use of the ZED2 camera
+First, install the ROS dependencies with `rosdep`
+
+```bash
+# Initialize the rosdep package manager (it may need sudo)
+rosdep init || echo "rosdep already initialized"
+# Update rosdep
+rosdep update
+# Install the ros dependencies
+rosdep install --from-paths src --ignore-src -r -y
+```
+
+Then, build the ROS packages
+
+```bash
+/opt/ros/humble/setup.sh
+colcon build --symlink-install
+```
+
