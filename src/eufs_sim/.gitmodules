@@ -1,0 +1,4 @@
+[submodule "eufs_msgs"]
+path = eufs_msgs
+url = https://github.com/xieyixian/newcastal_racingteam/eufs_sim/eufs_msgs.git
+
